@@ -13,9 +13,9 @@ public class Final_Package {
         C4 obj4 = p2.new C4();
         C5 obj5 = p2.new C5();
         obj1.bankdetails();
-        obj2.display("Aakshita", 50000, 500097);
-        obj3.display("Aakshita", 50000, 500097);
-        obj4.bonus(50000);
+        obj2.display("Aakshita", 25000, 500097);
+        obj3.display("Aakshita", 25000, 500097);
+        obj4.bonus();
         obj5.dob();
     }
 }

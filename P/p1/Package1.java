@@ -14,7 +14,7 @@ public class Package1 {
         private long acc_number = 11244570;
         public static int salary = 25000;
         public String name = "Aakshita Singh";
-        int empid = 78472;
+        int empid = 500097;
         protected int acc_bal = 758444;
 
         public void bankdetails() {
@@ -22,7 +22,7 @@ public class Package1 {
             String ch = sc.nextLine();
             switch (ch) {
                 case "Y":
-                    System.out.println("Account number is: " + acc_number + "\n Account Balance is: " + acc_bal);
+                    System.out.println("Account number is: " + acc_number + "\nAccount Balance is: " + acc_bal);
                     break;
                 case "N":
                     System.out.println("Ok!");
@@ -37,7 +37,7 @@ public class Package1 {
         public String DOB = "06/11/2003";
 
         public void display(String name, int salary, int empid) {
-            System.out.println(r + "\nName: " + name + "\nSalary: " + salary + "\nEmployee ID: " + empid);
+            System.out.println(r + "\nName: " + name + "\nSalary: " + C1.salary + "\nEmployee ID: " + empid);
         }
     }
 }
